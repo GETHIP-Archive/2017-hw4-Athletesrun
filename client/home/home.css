@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.homeHeader {
+    background-color: #D0E3CC;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.homeH1 {
+    color: #DBA159;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 40px;
+    margin-left: 15px;
+    display: inline;
+}
+
+.homeHeaderButton {
+    padding: 5px;
+    text-align: right;
+    float: right;
+    background-color: #F7FFDD;
+    color: #DBA159;
+    border: 2px solid #DBA159;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.homeHeaderButton:hover {
+    color: #F7FFDD;
+    background-color: #DBA159;
+    cursor: pointer;
+}
+
+.homeMottoSection {
+    color: #DBA159;
+    background-color: #F7FFDD;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.homeMotto {
+    font-size: 75px;
+    margin: 0;
+}
+
+.homeGetStartedButton {
+    font-size: 60px;
+    color: #DBA159;
+    border: 5px solid #DBA159;
+    background-color: #F7FFDD;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.homeGetStartedButton:hover {
+    color: #F7FFDD;
+    background-color: #DBA159;
+    cursor: pointer;
+}
+
+.homeUsersSection {
+    background-color: #DBA159;
+    width: 100%;
+    padding-bottom: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.homeUsersHeader {
+    font-size: 50px;
+    color: #f7ffdd;
+}
+
+.homeUsersNone {
+    color: #f7ffdd;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.homeUsersListItem {
+    color: #f7ffdd;
+    font-size: 30px;
+    padding: 0;
+    margin: 10px;
+}
