@@ -25,6 +25,7 @@ body {
     font-size: 40px;
     margin-left: 15px;
     display: inline;
+    text-decoration: none;
 }
 
 .homeHeaderButton {
