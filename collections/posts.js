@@ -24,3 +24,7 @@ Post.schema = new SimpleSchema({
         label: 'Text'
     }
 });
+
+Post.attachSchema(Post.schema);
+
+export { Profile };

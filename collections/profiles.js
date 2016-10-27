@@ -22,5 +22,13 @@ Profile.schema = new SimpleSchema({
     id: {
         type: String,
         label: 'Id'
+    },
+    email: {
+        type: String,
+        label: 'Email'
     }
 });
+
+Profile.attachSchema(Profile.schema);
+
+export { Profile };

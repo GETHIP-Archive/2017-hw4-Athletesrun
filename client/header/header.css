@@ -1,0 +1,25 @@
+.headerHeader {
+    background-color: #D0E3CC;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+
+.headerTitle {
+    color: #DBA159;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 40px;
+    margin-left: 15px;
+    display: inline;
+    text-decoration: none;
+}
+
+.headerLoginButtonContainer {
+    display: block-inline;
+    float: right;
+    margin-right: 250px;
+    margin-top: 17px;
+}

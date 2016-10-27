@@ -8,44 +8,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-
-.homeHeader {
-    background-color: #D0E3CC;
-    width: 100%;
-    height: 70px;
-    margin: 0;
-    padding: 0;
-}
-
-.homeH1 {
-    color: #DBA159;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 40px;
-    margin-left: 15px;
-    display: inline;
-    text-decoration: none;
-}
-
-.homeHeaderButton {
-    padding: 5px;
-    text-align: right;
-    float: right;
-    background-color: #F7FFDD;
-    color: #DBA159;
-    border: 2px solid #DBA159;
-    margin: 10px;
-    font-size: 25px;
-    border-radius: 8px;
-}
-
-.homeHeaderButton:hover {
-    color: #F7FFDD;
-    background-color: #DBA159;
-    cursor: pointer;
-}
-
 .homeMottoSection {
     color: #DBA159;
     background-color: #F7FFDD;
