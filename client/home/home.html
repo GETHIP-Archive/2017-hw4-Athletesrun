@@ -7,7 +7,8 @@
     <section class="homeUsersSection">
         <h2 class="homeUsersHeader">See Who's All Using Blogr</h2>
         <p class="homeUsersNone">Awww... No one is yet :(</p>
-        <p class="homeUsersListItem">Ben</p>
-        <p class="homeUsersListItem">Tom</p>
+        {{ #each accountList }}
+            <p class="homeUsersListItem">{{accountList.name}}</p>
+        {{ #/each}}
     </section>
 </template>
