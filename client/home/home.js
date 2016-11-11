@@ -7,3 +7,9 @@ Template.home.helpers({
         return Profiles.find({});
     }
 });
+
+Template.home.events({
+    'click .homeGetStartedButton': (event) => {
+        FlowRouter.go('/signup');
+    }
+});
