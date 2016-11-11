@@ -1,7 +1,10 @@
 <template name="login">
     {{> header }}
     <div class="loginContainer">
-        <input type="text" placeholder="Username">
-        <input type="password" placeholder="Password">
+        <form class="loginForm">
+            <input class="loginUsernameInput" type="text" placeholder="Username">
+            <input class="loginPasswordInput" type="password" placeholder="Password">
+            <button type="submit">Login</button>
+        </form>
     </div>
 </template>
